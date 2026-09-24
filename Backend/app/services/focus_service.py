@@ -148,7 +148,7 @@ def record_focus_session(db: Session, user: User, data):
 
         new_total = previous_total_minutes + data.duration
         achievement_rules = [
-            (not previous_session_exists, "First Session", "You completed your first focus session. Welcome to NeuraTrack!"),
+            (not previous_session_exists, "First Session", "You completed your first focus session. Welcome to Northstar!"),
             (previous_streak < 7 <= streak, "7-Day Streak", "You reached a 7-day learning streak. Consistency unlocked!"),
             (previous_total_minutes < 50 * 60 <= new_total, "50 Hours Studied", "You crossed 50 hours of focused learning. Huge milestone!"),
             (previous_level < 5 <= user.level, "Level Up", "You reached Level 5. Your progress is adding up!"),

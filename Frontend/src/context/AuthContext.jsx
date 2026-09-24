@@ -34,13 +34,13 @@ export function AuthProvider({ children }) {
     };
 
     window.addEventListener(
-      "neuratrack-auth-expired",
+      "Northstar-auth-expired",
       handleAuthenticationExpired
     );
 
     const restoreUser = async () => {
       const token = localStorage.getItem(
-        "neuratrack_access_token"
+        "Northstar_access_token"
       );
 
       // No token = user is not authenticated
@@ -59,7 +59,7 @@ export function AuthProvider({ children }) {
 
         // Keep localStorage synchronized
         localStorage.setItem(
-          "neuratrack-user",
+          "Northstar-user",
           JSON.stringify(currentUser)
         );
       } catch (error) {
@@ -81,7 +81,7 @@ export function AuthProvider({ children }) {
 
     return () => {
       window.removeEventListener(
-        "neuratrack-auth-expired",
+        "Northstar-auth-expired",
         handleAuthenticationExpired
       );
     };
@@ -109,7 +109,7 @@ export function AuthProvider({ children }) {
 
       // Keep cached user synchronized
       localStorage.setItem(
-        "neuratrack-user",
+        "Northstar-user",
         JSON.stringify(data.user)
       );
 
@@ -158,7 +158,7 @@ export function AuthProvider({ children }) {
 
       // Keep cached user synchronized
       localStorage.setItem(
-        "neuratrack-user",
+        "Northstar-user",
         JSON.stringify(data.user)
       );
 
@@ -219,7 +219,7 @@ export function AuthProvider({ children }) {
 
       // Update cached user immediately
       localStorage.setItem(
-        "neuratrack-user",
+        "Northstar-user",
         JSON.stringify(updatedUser)
       );
 

@@ -65,7 +65,7 @@ export default function Login() {
       }
 
       toast.success(
-        "Welcome back to NeuraTrack!"
+        "Welcome back to Northstar!"
       );
 
       navigate("/dashboard");

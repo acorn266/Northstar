@@ -1,12 +1,12 @@
-# 🧠 NeuraTrack
+# 🧠 Northstar
 
 ### A Full-Stack Learning & Productivity Platform
 
-**NeuraTrack** is a modern full-stack web application designed to help learners turn their goals into structured learning paths, focused study sessions, measurable progress, and consistent habits.
+**Northstar** is a modern full-stack web application designed to help learners turn their goals into structured learning paths, focused study sessions, measurable progress, and consistent habits.
 
 The platform brings **learning management, productivity tracking, analytics, gamification, and AI-assisted learning** together in one experience.
 
-Built with **React, FastAPI, Python, PostgreSQL, Supabase, and Tailwind CSS**, NeuraTrack demonstrates the complete development lifecycle of a modern web application — from responsive frontend design and REST API development to authentication, database integration, and production deployment.
+Built with **React, FastAPI, Python, PostgreSQL, Supabase, and Tailwind CSS**, Northstar demonstrates the complete development lifecycle of a modern web application — from responsive frontend design and REST API development to authentication, database integration, and production deployment.
 
 <p align="center">
 
@@ -53,7 +53,7 @@ Built with **React, FastAPI, Python, PostgreSQL, Supabase, and Tailwind CSS**, N
 
 ## 🎯 Project Goals
 
-NeuraTrack was developed to explore how a modern learning platform can combine:
+Northstar was developed to explore how a modern learning platform can combine:
 
 **Learning Management**
 → structured learning paths and goals
@@ -76,11 +76,6 @@ The result is a single platform focused specifically on making self-directed lea
 
 ## 🚀 Live Demo
 
-🌐 **Frontend:** https://neuratrack-app.vercel.app/
-
-⚡ **Backend API:** https://neuratrack-backend.fastapicloud.dev/
-
-📦 **GitHub:** https://github.com/wajeeha-asad/NeuraTrack
 
 ---
 
@@ -128,7 +123,7 @@ Stay motivated with an achievement system based on your learning activity.
 
 ### 🔥 Progress & Streaks
 
-NeuraTrack helps maintain consistency through:
+Northstar helps maintain consistency through:
 
 * Daily activity tracking
 * Learning streaks
@@ -137,7 +132,7 @@ NeuraTrack helps maintain consistency through:
 
 ### 🤖 Nova AI Companion
 
-NeuraTrack includes **Nova**, an AI companion designed to make the learning experience more interactive and personalized.
+Northstar includes **Nova**, an AI companion designed to make the learning experience more interactive and personalized.
 
 ### 👤 Authentication & Profile
 
@@ -165,43 +160,43 @@ Designed to work across:
 
 ## Dashboard
 
-![NeuraTrack Dashboard](screenshots/dashboard.PNG)
+![Northstar Dashboard](screenshots/dashboard.PNG)
 
 ## Learning Paths
 
-![NeuraTrack Learning Paths](screenshots/learning_paths.PNG)
+![Northstar Learning Paths](screenshots/learning_paths.PNG)
 
 ## Focus Mode
 
-![NeuraTrack Focus Mode](screenshots/focus.PNG)
+![Northstar Focus Mode](screenshots/focus.PNG)
 
 ## Analytics
 
-![NeuraTrack Analytics](screenshots/analytics.PNG)
+![Northstar Analytics](screenshots/analytics.PNG)
 
-![NeuraTrack Analytics Details](screenshots/analytics2.PNG)
+![Northstar Analytics Details](screenshots/analytics2.PNG)
 
 ## Achievements
 
-![NeuraTrack Achievements](screenshots/achievements.PNG)
+![Northstar Achievements](screenshots/achievements.PNG)
 
 ## Profile
 
-![NeuraTrack Profile](screenshots/profile.PNG)
+![Northstar Profile](screenshots/profile.PNG)
 
 ## Settings
 
-![NeuraTrack Settings](screenshots/settings.PNG)
+![Northstar Settings](screenshots/settings.PNG)
 
 ## Authentication
 
-![NeuraTrack Login](screenshots/login.PNG)
+![Northstar Login](screenshots/login.PNG)
 
 ## Mobile Experience
 
-![NeuraTrack Mobile](screenshots/mobile.jpg)
+![Northstar Mobile](screenshots/mobile.jpg)
 
-![NeuraTrack Mobile 2](screenshots/mobile2.jpg)
+![Northstar Mobile 2](screenshots/mobile2.jpg)
 
 ---
 
@@ -209,7 +204,7 @@ Designed to work across:
 
 ```text
                     ┌─────────────────────┐
-                    │      NeuraTrack     │
+                    │      Northstar     │
                     │     Web Client      │
                     └──────────┬──────────┘
                                │
@@ -280,7 +275,7 @@ Designed to work across:
 # 📂 Project Structure
 
 ```text
-NeuraTrack/
+Northstar/
 │
 ├── Backend/
 │   ├── app/

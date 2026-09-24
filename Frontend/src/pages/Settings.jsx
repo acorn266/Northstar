@@ -84,7 +84,7 @@ export default function Settings() {
         // Keep notification preference available
         // locally for simple in-app notification handling.
         localStorage.setItem(
-          "neuratrack-notifications",
+          "Northstar-notifications",
           String(Boolean(data.notifications))
         );
       } catch (error) {
@@ -116,7 +116,7 @@ export default function Settings() {
       setNotifications(value);
 
       localStorage.setItem(
-        "neuratrack-notifications",
+        "Northstar-notifications",
         String(value)
       );
 
@@ -145,7 +145,7 @@ export default function Settings() {
         setNotifications(previousValue);
 
         localStorage.setItem(
-          "neuratrack-notifications",
+          "Northstar-notifications",
           String(previousValue)
         );
 
@@ -299,7 +299,7 @@ export default function Settings() {
         },
 
         message:
-          "NeuraTrack data export",
+          "Northstar data export",
       };
 
       const blob = new Blob(
@@ -324,7 +324,7 @@ export default function Settings() {
       link.href = url;
 
       link.download =
-        "neuratrack-data.json";
+        "Northstar-data.json";
 
       document.body.appendChild(link);
 
@@ -444,7 +444,7 @@ export default function Settings() {
 
         <SettingsSection
           title="Data"
-          description="Manage your NeuraTrack data."
+          description="Manage your Northstar data."
         >
           <SettingsRow
             icon={Download}
@@ -465,7 +465,7 @@ export default function Settings() {
 
         <SettingsSection
           title="Preferences"
-          description="Control your NeuraTrack experience."
+          description="Control your Northstar experience."
         >
           <SettingsRow
             icon={Bell}
@@ -501,7 +501,7 @@ export default function Settings() {
               </h2>
 
               <p className="mt-1 text-sm text-slate-400">
-                Sign out of your NeuraTrack account on this device.
+                Sign out of your Northstar account on this device.
               </p>
             </div>
 

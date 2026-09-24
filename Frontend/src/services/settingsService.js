@@ -14,7 +14,7 @@ export async function getSettings() {
     undefined
   ) {
     localStorage.setItem(
-      "neuratrack-notifications",
+      "Northstar-notifications",
       String(
         Boolean(data.notifications)
       )
@@ -44,7 +44,7 @@ export async function updateSettings(
     undefined
   ) {
     localStorage.setItem(
-      "neuratrack-notifications",
+      "Northstar-notifications",
       String(
         Boolean(data.notifications)
       )

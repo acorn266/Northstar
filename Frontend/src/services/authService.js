@@ -1,10 +1,10 @@
 import api from "./api";
 
 const ACCESS_TOKEN_KEY =
-  "neuratrack_access_token";
+  "Northstar_access_token";
 
 const REFRESH_TOKEN_KEY =
-  "neuratrack_refresh_token";
+  "Northstar_refresh_token";
 
 function storeAuthenticationTokens(
   data
@@ -42,7 +42,7 @@ export async function registerUser(userData) {
   // Save authenticated user
   if (data.user) {
     localStorage.setItem(
-      "neuratrack-user",
+      "Northstar-user",
       JSON.stringify(data.user)
     );
   }
@@ -68,7 +68,7 @@ export async function loginUser(credentials) {
   // Save user data
   if (data.user) {
     localStorage.setItem(
-      "neuratrack-user",
+      "Northstar-user",
       JSON.stringify(data.user)
     );
   }
@@ -114,7 +114,7 @@ export function logoutUser() {
   );
 
   localStorage.removeItem(
-    "neuratrack-user"
+    "Northstar-user"
   );
 }
 
@@ -124,7 +124,7 @@ export function logoutUser() {
 
 export function getStoredUser() {
   const user = localStorage.getItem(
-    "neuratrack-user"
+    "Northstar-user"
   );
 
   if (!user) {
@@ -135,7 +135,7 @@ export function getStoredUser() {
     return JSON.parse(user);
   } catch {
     localStorage.removeItem(
-      "neuratrack-user"
+      "Northstar-user"
     );
 
     return null;

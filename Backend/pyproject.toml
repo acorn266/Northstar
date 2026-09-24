@@ -1,7 +1,7 @@
 [project]
-name = "neuratrack-backend"
+name = "northstar-backend"
 version = "1.0.0"
-description = "NeuraTrack backend API"
+description = "Northstar backend API"
 requires-python = ">=3.13,<3.14"
 
 dependencies = [

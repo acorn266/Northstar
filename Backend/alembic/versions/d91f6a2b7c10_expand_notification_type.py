@@ -3,6 +3,7 @@
 Revision ID: d91f6a2b7c10
 Revises: c2a7f91d4e6b
 """
+
 from typing import Sequence, Union
 
 from alembic import op
@@ -16,6 +17,11 @@ depends_on = None
 
 
 def upgrade() -> None:
+    bind = op.get_bind()
+
+    if bind.dialect.name == "sqlite":
+        return
+
     op.alter_column(
         "notifications",
         "type",
@@ -26,6 +32,11 @@ def upgrade() -> None:
 
 
 def downgrade() -> None:
+    bind = op.get_bind()
+
+    if bind.dialect.name == "sqlite":
+        return
+
     op.alter_column(
         "notifications",
         "type",

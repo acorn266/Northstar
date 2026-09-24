@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
 venv/
+.venv/
 
 # Python cache
 __pycache__/
@@ -27,3 +28,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Local database
+*.db

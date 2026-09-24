@@ -6,7 +6,7 @@ export default function SettingsHeader() {
       </h1>
 
       <p className="mt-2 text-slate-400">
-        Customize your NeuraTrack experience.
+        Customize your Northstar experience.
       </p>
     </div>
   );

@@ -15,8 +15,8 @@ from app.routers.notifications import router as notifications_router
 
 
 app = FastAPI(
-    title="NeuraTrack API",
-    description="Backend API for NeuraTrack learning tracker",
+    title="Northstar API",
+    description="Backend API for Northstar learning tracker",
     version="1.0.0",
 )
 
@@ -28,7 +28,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://localhost:5174",
         "http://127.0.0.1:5174",
-        "https://neuratrack-app.vercel.app",
+        "https://Northstar-app.vercel.app",
 
     ],
     allow_credentials=True,
@@ -63,7 +63,7 @@ app.include_router(notifications_router)
 @app.get("/")
 def root():
     return {
-        "message": "NeuraTrack API is running 🚀"
+        "message": "Northstar API is running 🚀"
     }
 
 

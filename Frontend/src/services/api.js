@@ -2,10 +2,10 @@ const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL;
 
 const ACCESS_TOKEN_KEY =
-  "neuratrack_access_token";
+  "Northstar_access_token";
 
 const REFRESH_TOKEN_KEY =
-  "neuratrack_refresh_token";
+  "Northstar_refresh_token";
 
 const AUTH_ENDPOINTS = [
   "/api/auth/login",
@@ -23,12 +23,12 @@ function clearAuthenticationState() {
   );
 
   localStorage.removeItem(
-    "neuratrack-user"
+    "Northstar-user"
   );
 
   if (typeof window !== "undefined") {
     window.dispatchEvent(
-      new Event("neuratrack-auth-expired")
+      new Event("Northstar-auth-expired")
     );
   }
 }

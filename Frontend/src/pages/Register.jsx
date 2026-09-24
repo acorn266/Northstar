@@ -317,7 +317,7 @@ export default function Register() {
               <p className="mt-2 text-slate-400">
                 Start building your
                 learning journey with
-                NeuraTrack.
+                Northstar.
               </p>
 
             </div>

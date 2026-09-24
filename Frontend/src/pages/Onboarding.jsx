@@ -29,7 +29,7 @@ const steps = [
   {
     title: "What's your preferred category?",
     description:
-      "Choose the area you'd like NeuraTrack to prioritize for you.",
+      "Choose the area you'd like Northstar to prioritize for you.",
     icon: BookOpen,
   },
 ];
@@ -218,7 +218,7 @@ export default function Onboarding() {
       }
 
       toast.success(
-        "Your NeuraTrack journey is ready! 🚀"
+        "Your Northstar journey is ready! 🚀"
       );
 
       navigate("/dashboard", {
@@ -299,7 +299,7 @@ export default function Onboarding() {
             </div>
 
             <span className="font-semibold">
-              NeuraTrack
+              Northstar
             </span>
           </div>
 
