@@ -1,0 +1,23 @@
+services:
+
+  backend:
+    build:
+      context: ./Backend
+    container_name: northstar-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./Backend/.env
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./Frontend
+      args:
+        VITE_API_BASE_URL: http://localhost:8000
+    container_name: northstar-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
