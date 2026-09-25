@@ -30,12 +30,12 @@ It combines **learning management, productivity tracking, analytics, and AI-assi
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/dashboard.PNG" width="48%" />
-  <img src="screenshots/learning_paths.PNG" width="48%" />
+  <img width="871" height="476" alt="Screenshot 2026-09-24 212644" src="https://github.com/user-attachments/assets/aec6f76a-19d0-42ce-8276-7939d7d8a22a" />
+
 </p>
 
 <p align="center">
-  <img src="screenshots/analytics.PNG" width="48%" />
+  <img width="932" height="476" alt="Screenshot 2026-09-24 212725" src="https://github.com/user-attachments/assets/6a85a636-c1db-4c47-a72f-86c34230cb1a" />
 </p>
 
 ---
